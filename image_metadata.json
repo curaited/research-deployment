@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "bedroom_scandinavian_0000001.jpg",
+    "room_type": "bedroom",
+    "style": "scandinavian"
+  },
+  {
+    "filename": "kitchen_contemporary_0000001.jpeg",
+    "room_type": "kitchen",
+    "style": "contemporary"
+  },
+  {
+    "filename": "kitchen_industrial_0000001.jpeg",
+    "room_type": "kitchen",
+    "style": "industrial"
+  },
+  {
+    "filename": "livingroom_contemporary_0000001.jpeg",
+    "room_type": "livingroom",
+    "style": "contemporary"
+  },
+  {
+    "filename": "livingroom_contemporary_0000002.jpg",
+    "room_type": "livingroom",
+    "style": "contemporary"
+  },
+  {
+    "filename": "livingroom_contemporary_0000003.jpg",
+    "room_type": "livingroom",
+    "style": "contemporary"
+  },
+  {
+    "filename": "livingroom_farmhouse_0000001.jpg",
+    "room_type": "livingroom",
+    "style": "farmhouse"
+  },
+  {
+    "filename": "livingroom_industrial_0000001.jpg",
+    "room_type": "livingroom",
+    "style": "industrial"
+  },
+  {
+    "filename": "livingroom_scandinavian_0000001.jpg",
+    "room_type": "livingroom",
+    "style": "scandinavian"
+  }
+]

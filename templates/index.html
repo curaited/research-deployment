@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CurAIted</title>
+  <!-- Include CSS file -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <header>
+    <!-- Add your site header here (e.g., logo, navigation) -->
+    <h1>CurAIted</h1>
+  </header>
+
+  <main>
+    <form id="image-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="room_type">Room Type</label>
+          <select name="room_type" id="room_type">
+            <option value="living_room">Living Room</option>
+            <option value="bedroom">Bedroom</option>
+            <option value="kitchen">Kitchen</option>
+            <option value="bathroom">Bathroom</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="style">Style</label>
+          <select name="style" id="style">
+            <option value="contemporary">Modern</option>
+            <option value="craftsman">Traditional</option>
+            <option value="farmhouse">Farmhouse</option>
+            <option value="scandinavian">Scandinavian</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="random-toggle" name="random_image" />
+          Midjourney (beta)
+        </label>
+      </div>
+      <button type="button" id="generate-btn">Generate Image</button>
+    </form>
+    <div class="image-container">
+      <img src="{{ url_for('static', filename='images/placeholder-image.jpg') }}" alt="Generated Image" id="generated-image" />
+    </div>
+  </main>
+
+  <footer>
+    <!-- Add your site footer here (e.g., copyright notice, links) -->
+    <p>&copy; CurAIted 2023</p>
+  </footer>
+
+  <!-- Include JavaScript file -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
